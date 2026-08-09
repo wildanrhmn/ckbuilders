@@ -1,6 +1,6 @@
 # CKBuilders — Learning Journal
 
-Weekly dev logs for the [CKBuilders program](https://nervoscatalyst.org/community-keeps-building) (Nervos Community Catalyst, Builders' track).
+Weekly reports for the [CKBuilders program](https://nervoscatalyst.org/community-keeps-building) (Nervos Community Catalyst, Builders' track).
 
 **Builder:** Wildan Rahman ([@wildanrhmn](https://github.com/wildanrhmn))
 **Cohort start:** August 2026
@@ -8,18 +8,18 @@ Weekly dev logs for the [CKBuilders program](https://nervoscatalyst.org/communit
 
 ## Reports
 
-| Week | Dates | Report | Focus |
-|------|-------|--------|-------|
-| 1 | Aug 3 – Aug 9 | [week-01](reports/week-01.md) | Environment setup, CKB fundamentals |
+| Week | Ending | Report |
+|------|--------|--------|
+| 1 | Aug 9, 2026 | [ckb_weekly_report_w1.md](ckb_weekly_report_w1.md) |
 
 ## Progress checklist
 
 ### Introduction
 - [x] OffCKB dev environment + local devnet
 - [x] Deploy first test contract (hello-world)
-- [ ] Introduction to Nervos CKB (concepts & terminology)
-- [ ] CKB Academy lessons 1–2
-- [ ] Introduction to Script
+- [x] Introduction to Nervos CKB (concepts & terminology)
+- [x] CKB Academy lessons 1–2
+- [x] Introduction to Script
 
 ### Beginner exercises
 - [ ] Transfer CKB
