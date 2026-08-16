@@ -11,6 +11,7 @@ Weekly reports for the [CKBuilders program](https://nervoscatalyst.org/community
 | Week | Ending | Report |
 |------|--------|--------|
 | 1 | Aug 9, 2026 | [ckb_weekly_report_w1.md](ckb_weekly_report_w1.md) |
+| 2 | Aug 16, 2026 | [ckb_weekly_report_w2.md](ckb_weekly_report_w2.md) |
 
 ## Progress checklist
 
@@ -22,8 +23,8 @@ Weekly reports for the [CKBuilders program](https://nervoscatalyst.org/community
 - [x] Introduction to Script
 
 ### Beginner exercises
-- [ ] Transfer CKB
-- [ ] Store data on a Cell
+- [x] Transfer CKB
+- [x] Store data on a Cell
 - [ ] Create a fungible token
 - [ ] Create a DOB (digital object)
 - [ ] Build a simple lock
