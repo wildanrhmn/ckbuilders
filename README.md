@@ -16,6 +16,7 @@ Weekly reports for the [CKBuilders program](https://nervoscatalyst.org/community
 | 4 | Aug 30, 2026 | [ckb_weekly_report_w4.md](ckb_weekly_report_w4.md) |
 | 5 | Sep 6, 2026 | [ckb_weekly_report_w5.md](ckb_weekly_report_w5.md) |
 | 6 | Sep 13, 2026 | [ckb_weekly_report_w6.md](ckb_weekly_report_w6.md) |
+| 7 | Sep 20, 2026 | [ckb_weekly_report_w7.md](ckb_weekly_report_w7.md) |
 
 ## Progress checklist
 
@@ -35,9 +36,9 @@ Weekly reports for the [CKBuilders program](https://nervoscatalyst.org/community
 
 ### Intermediate
 - [x] Script development in Rust: first script with ckb-script-templates, ckb-debugger, ckb-testtool
-- [ ] Deploy a Rust script to devnet and drive it with a real transaction
-- [ ] sUDT standard
-- [ ] Nervos DAO
+- [x] Deploy a Rust script to devnet and drive it with a real transaction
+- [x] sUDT standard
+- [x] Nervos DAO
 - [ ] Spore Protocol / DOBs
 
 ### Advanced / Capstone
