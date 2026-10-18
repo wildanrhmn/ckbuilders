@@ -27,12 +27,12 @@
   - 400 units with **my own sUDT contract from week 6** (`0xbc5682cc6174ef1227e821aceb00da9ebddc1425855bb780aed793c543e8eed9`). That was its first run on-chain; before this it had only passed unit tests. The owner-mode mint went through.
 - Checked against real transactions: the carrot deploy (fee 0.00023168 CKB, 1,629,240 cycles), both tokens, the week 8 spore ("hello from week 8", spent in the transfer tx), the cluster, and the week 7 DAO deposit, which shows 102 bytes used and 98 CKB free. That free part is the capacity that earns DAO compensation.
 - Bug found while testing: "spent by" came back empty when a transaction page was opened directly. The search's block range ended at a cached tip that hadn't been fetched yet. It now refreshes the tip first.
-- Wrote `docs/ARCHITECTURE.md` (how each part works, with the RFC links), added a `tsconfig.json` and `npm run check`. Pushed as `e91bdc8`.
+- Wrote `docs/ARCHITECTURE.md` (how each part works, with the RFC links), added a `tsconfig.json` and `npm run check`. Pushed as `0c717d2`.
 - Then redesigned the UI. The old one was a single page that worked but didn't look like an explorer, so I went through the official explorer's transaction and home pages and rebuilt it around the same layout, but for a devnet:
   - Overview with the latest transactions and blocks, refreshing as the devnet mines, and a "Your scripts" panel that checks whether each script in my projects is actually on this chain. It flagged `hash-lock.bc` from simple-lock: its `scripts.json` still points at a code cell that isn't on my current devnet anymore.
   - Transaction page with confirmations, fee rate, size and cycles (the RPC doesn't return size, so the tx is serialized with CCC), the cell deps, and every cell as a row that expands to its capacity bar, contents and scripts.
   - New block, address (balance, tokens, live cells, history) and script pages, plus search for a tx hash, block, address or code hash.
-  - Checked at phone, tablet and desktop widths. Pushed as `ae0fdc8` and `eaeac77`.
+  - Checked at phone, tablet and desktop widths. Pushed as `981f619` and `1aeee0f`.
 
 **Evidence:**
 
