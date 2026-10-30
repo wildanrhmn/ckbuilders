@@ -22,6 +22,7 @@ Weekly reports for the [CKBuilders program](https://nervoscatalyst.org/community
 | 10 | Oct 11, 2026 | [ckb_weekly_report_w10.md](ckb_weekly_report_w10.md) |
 | 11 | Oct 18, 2026 | [ckb_weekly_report_w11.md](ckb_weekly_report_w11.md) |
 | 12 | Oct 25, 2026 | [ckb_weekly_report_w12.md](ckb_weekly_report_w12.md) |
+| 13 | Nov 1, 2026 | [ckb_weekly_report_w13.md](ckb_weekly_report_w13.md) |
 
 ## Progress checklist
 
@@ -48,4 +49,4 @@ Weekly reports for the [CKBuilders program](https://nervoscatalyst.org/community
 
 ### Advanced / Capstone
 - [ ] SSRI / RGB++ / xUDT (as relevant)
-- [ ] Capstone project (discussed with Neon): [ckb-devnet-explorer](https://github.com/wildanrhmn/ckb-devnet-explorer), in progress
+- [x] Capstone project (discussed with Neon): [ckb-devnet-explorer](https://github.com/wildanrhmn/ckb-devnet-explorer), [write-up](https://github.com/wildanrhmn/ckb-devnet-explorer/blob/main/docs/CAPSTONE.md)
